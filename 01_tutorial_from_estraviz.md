@@ -98,7 +98,6 @@ distances
 =====print=====
 array([10, 15, 17, 26, 20])
 ```
-```
 #### np.array([[]])
 - numpy array 에 이중 list 를 사용하면 2차원 배열, 삼중 list 를 사용하면 3차원 배열을 만들 수 있다.
 ```
@@ -621,7 +620,6 @@ initial_price = 100
 price = initial_price * np.exp(returns.cumsum())
 ```
 
-```
 #### 그래프로 확인
 ```
 plt.plot(price)
