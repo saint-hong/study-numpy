@@ -75,7 +75,7 @@ total = (product_quantities*prices).sum()
 TypeError: unsupported operand type(s) for /: 'list' and 'list'
 ```
 
-#### creating arrays : from lists and using built-in functions
+## creating arrays : from lists and using built-in functions
 - numpy 의 배열은 다양한 수학 계산이 빠르고 쉽게 가능하다.
 ```
 import numpy as np
@@ -175,7 +175,7 @@ A.ndim, A.shape, A.size
 2, (3,4), 12
 ```
 
-#### Basic math with arrays
+## Basic math with arrays
 - 위에서 만든 거리, 시간, 수량, 가격 array 로 수한 연산을 할 수 있다.
 ```
 speeds = distances / times
@@ -287,7 +287,7 @@ array([0.        , 1.41421356, 2.        , 2.44948974, 2.82842712,
        3.16227766, 3.46410162, 3.74165739, 4.        , 4.24264069])
 ```
 
-#### Common manipulations
+## Common manipulations
 
 ##### indexing : 배열의 요소의 값을 가져오거나 값을 변경하는 기능
 ```
@@ -473,7 +473,7 @@ two_dim.flatten()
 array([100,   4,   5,   2,   5,   6,   7,   8,  10,  22,  24,  11])
 ```
 
-### coin flips 
+## Performing a simulation, coin flips 
 - 동전을 던져서 앞면이 나오는 경우는 1, 뒷면이 나오는 경우는 0이라고 가정.
 - 0, 1 의 배열을 만들고 동전 던지기를 시뮬레이션 해본다.
 ```
@@ -587,7 +587,7 @@ for n, count in zip(unique_numbers, observed_times) :
 10 heads observed 97 times (4.8%)
 ```
 
-#### Simulating Staock Returns
+## Simulating Staock Returns
 - 주식 가격의 추이를 보여주는 임의의 배열을 그래프로 간단하게 구현할 수 있다.
 
 - pyplot 패키지 사용
