@@ -40,7 +40,8 @@ C/C++ 및 Fortran 언어와의 코드 통합 도구
 - 패턴들은 서로 합성하거나 성장할 수 있다.
 - 또한 규칙들이 추가되며 복잡하고 다양한 패턴들이 고안되었다.
     - 아메바, 불사조, 레이스, 산호초, 피라미드 등
-    
+
+- 가스퍼의 글리터 건 패턴 (wiki : https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9D%B4%ED%94%84_%EA%B2%8C%EC%9E%84)   
 ![Gospers_glider_gun](./images/Gospers_glider_gun.gif)
 
 ### The way of python
