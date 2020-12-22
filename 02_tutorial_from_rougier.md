@@ -319,7 +319,7 @@ A = Z[1:5, 1:5]
 A[0,0] = 9
 print(A)
 ```
-``
+```
 =====print=====
 [[9 0 1 0]
  [1 0 1 0]
@@ -338,6 +338,7 @@ print(A.base is Z)
 =====print=====
 True
 ```
+
 #### Counting neighbours : numpy array vectorization
 - numpy array 에서 이웃셀의 수를 카운팅하기 위해 array 를 스칼라 값으로 처리하는 것을 의미한다.
 - 앞에서 python 코드는 중첩된 루프들에 의해서 속도가 느리다.
@@ -783,4 +784,3 @@ for i in range(20) :
 
 - After 100 generation
 ![cellular_automaton_6](./images/cellular_automaton_6.png)
-
