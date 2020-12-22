@@ -11,9 +11,7 @@ C/C++ 및 Fortran 언어와의 코드 통합 도구
 ```
 으로 정리할 수 있다.
 
-```
-https://github.com/rougier/numpy-tutorial#exercises
-```
+- 참고 url     https://github.com/rougier/numpy-tutorial#exercises
 
 ### cellular automaton numpy
 - 세포자동자라는 의미의 수학적 이산모형이다.
@@ -319,7 +317,7 @@ A = Z[1:5, 1:5]
 A[0,0] = 9
 print(A)
 ```
-``
+```
 =====print=====
 [[9 0 1 0]
  [1 0 1 0]
@@ -338,6 +336,7 @@ print(A.base is Z)
 =====print=====
 True
 ```
+
 #### Counting neighbours : numpy array vectorization
 - numpy array 에서 이웃셀의 수를 카운팅하기 위해 array 를 스칼라 값으로 처리하는 것을 의미한다.
 - 앞에서 python 코드는 중첩된 루프들에 의해서 속도가 느리다.
@@ -764,9 +763,11 @@ for i in range(20) :
 ![cellular_automaton_1](./images/cellular_automaton_1.png)
 
 - plus pic
+- 1 인 곳이 검은색으로 표시되어 나타나있고, 매우 불규칙한 패턴들이 산재해 있다.
 ![cellular_automaton_1_plus](./images/cellular_automaton_1_plus.png)
 
 - After 5 generation
+- 셀의 생존 룰이 시행되면서, 점차 전체 셀의 모습이 변했다.
 ![cellular_automaton_2](./images/cellular_automaton_2.png)
 
 - After 10 generation
@@ -779,8 +780,8 @@ for i in range(20) :
 ![cellular_automaton_5](./images/cellular_automaton_5.png)
 
 - plus pic
+- 20 세대가 지나고나니 많은 셀이 사라진 것으로 보이고, 특이한 패턴들이 여러군데서 발견된다.
 ![cellular_automaton_5_plus](./images/cellular_automaton_5_plus.png)
 
 - After 100 generation
 ![cellular_automaton_6](./images/cellular_automaton_6.png)
-
