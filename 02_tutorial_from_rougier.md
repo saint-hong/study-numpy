@@ -765,9 +765,11 @@ for i in range(20) :
 ![cellular_automaton_1](./images/cellular_automaton_1.png)
 
 - plus pic
+- 1 인 곳이 검은색으로 표시되어 나타나있고, 매우 불규칙한 패턴들이 산재해 있다.
 ![cellular_automaton_1_plus](./images/cellular_automaton_1_plus.png)
 
 - After 5 generation
+- 셀의 생존 룰이 시행되면서, 점차 전체 셀의 모습이 변했다.
 ![cellular_automaton_2](./images/cellular_automaton_2.png)
 
 - After 10 generation
@@ -780,6 +782,7 @@ for i in range(20) :
 ![cellular_automaton_5](./images/cellular_automaton_5.png)
 
 - plus pic
+- 20 세대가 지나고나니 많은 셀이 사라진 것으로 보이고, 특이한 패턴들이 여러군데서 발견된다.
 ![cellular_automaton_5_plus](./images/cellular_automaton_5_plus.png)
 
 - After 100 generation
