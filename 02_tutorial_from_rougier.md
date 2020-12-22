@@ -41,7 +41,7 @@ C/C++ 및 Fortran 언어와의 코드 통합 도구
 - 또한 규칙들이 추가되며 복잡하고 다양한 패턴들이 고안되었다.
     - 아메바, 불사조, 레이스, 산호초, 피라미드 등
     
-![Gospers_glider_gun_(1)](./images/Gospers_glider_gun_(1).gif)
+![Gospers_glider_gun](./images/Gospers_glider_gun.gif)
 
 ### The way of python
 - 파이썬의 배열 인터페이스를 사용하여 세포자동화를 구현해본다.
