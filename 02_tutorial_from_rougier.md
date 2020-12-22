@@ -11,8 +11,7 @@ C/C++ 및 Fortran 언어와의 코드 통합 도구
 ```
 으로 정리할 수 있다.
 
-- 참고 url
-https://github.com/rougier/numpy-tutorial#exercises
+- 참고 url     https://github.com/rougier/numpy-tutorial#exercises
 
 ### cellular automaton numpy
 - 세포자동자라는 의미의 수학적 이산모형이다.
